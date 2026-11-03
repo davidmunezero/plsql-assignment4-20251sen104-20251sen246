@@ -7,7 +7,7 @@
 | Student ID | Name |
 |---|---|
 | 20251sen104 | Munezero David |
-| 20251sen246 | Shadrack Irafashe |
+| 20251sen246 | Shadrack Irafasha |
 
 ## Application description
 

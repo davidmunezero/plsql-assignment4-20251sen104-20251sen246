@@ -15,6 +15,7 @@ Hospital Management System
 
 This project implements a Hospital Management System using Oracle SQL and PL/SQL. The system manages patients, doctors, appointments, prescriptions, payments, insurance providers, and departments.
 
+# 2. Implementation
 The implementation demonstrates the use of:
 
 - Records
@@ -28,8 +29,9 @@ The implementation demonstrates the use of:
 
 ---
 
-# 2. Database Schema
+# 3. Database Schema
 
 ![Hospital ERD](hospital_erd.jpeg)
 
-# 3. Performance Consideration
+# 4. Performance 
+I used bulk collect and forall to retrieve payment info, process it, and update the payment table efficiently instead of using traditional for loop which according to Claude AI involves a lot switching between the PL/SQL engine and SQL engine.

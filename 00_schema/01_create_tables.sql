@@ -31,7 +31,7 @@ CREATE TABLE department (
     deptName VARCHAR2(50) NOT NULL CHECK (deptName IN 
             ('Emergency', 'Internal Medicine', 'Laboratory', 'Pediatrics', 'Surgery', 'Dentistry', 'Maternal Care')
         ),
-    budget NUMBER,
+    budget NUMBER CHECK (budget > 0),
     deptHead INT REFERENCES Doctor(doctorID),
     PRIMARY KEY(deptID)
 );

@@ -12,3 +12,5 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Updated budget for dept 4: ' || updated_budget);
 END;
 /
+
+EXEC update_payment_tbl;

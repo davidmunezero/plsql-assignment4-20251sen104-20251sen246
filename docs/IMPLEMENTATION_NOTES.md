@@ -31,3 +31,5 @@ The implementation demonstrates the use of:
 # 2. Database Schema
 
 ![Hospital ERD](hospital_erd.jpeg)
+
+# 3. Performance Consideration

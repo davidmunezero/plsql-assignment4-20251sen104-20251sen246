@@ -2,14 +2,31 @@
 
 **Topic:** Records, collections, and cursors in Oracle PL/SQL
 
+## Group members
+
+| Student ID | Name |
+|---|---|
+| 20251sen104 | Add member name |
+| 20251sen246 | Add member name |
 
 ## Application description
 
-This assignment models a small hospital database. It defines tables for
+This assignment models a hospital database. It defines tables for
 insurance providers, patients, doctors, departments, appointments,
-prescriptions, and payments. The PL/SQL procedures, functions, and tests for
-the assignment belong in the directories listed below.
- 
+prescriptions, and payments. It implements the needed automation of various process
+such as appointment analysis, salary modification, and more.
+
+## How to run
+
+Rrun the scripts in order from an Oracle SQL*Plus or SQLcl session connected to
+the target schema:
+
+1. `@00_schema/01_create_tables.sql`
+2. `@00_schema/02_insert_sample_data.sql`
+3. Run each required procedure and function script from its directory.
+4. `@03_tests/test_success_cases.sql`
+5. `@03_tests/test_error_cases.sql`
+
 ##  Academic Integrity & AI Usage 
 This project is the original work of the group members. All database design, PL/SQL procedures, functions, testing, and documentation were reviewed and understood by both group members but not at the same level.
 

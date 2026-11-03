@@ -4,11 +4,6 @@
 
 ### Application Name
 Hospital Management System
-
-### Group Members
-- Student Name MUNEZERO DAVID 20251SEN104
-- Student Name IRAFASHA SCHADRACK 20251SEN246 
-
 ---
 
 # 1. Project Overview
@@ -34,4 +29,4 @@ The implementation demonstrates the use of:
 ![Hospital ERD](hospital_erd.jpeg)
 
 # 4. Performance 
-I used bulk collect and forall to retrieve payment info, process it, and update the payment table efficiently instead of using traditional for loop which according to Claude AI involves a lot switching between the PL/SQL engine and SQL engine.
+I used BULK COLLECT and FORALL to retrieve payment info, process it, and update the payment table efficiently instead of using a traditional FOR loop, which, according to Claude AI, involves a lot of switching between the PL/SQL engine and the SQL engine.
